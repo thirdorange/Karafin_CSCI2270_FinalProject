@@ -932,7 +932,7 @@ void BookLibrary::printLibrary(BookNode *node){
         printLibrary(node->leftChild);
     }
     /*START INORDER OPS*/
-    cout<<node->title<<endl;
+    cout<<node->title<<" by "<<node->author<<" (Category:"<<node->category<<")"<<endl;
     /*END INORDER OPS*/
     if(node->rightChild != nil){
         printLibrary(node->rightChild);
