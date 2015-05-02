@@ -16,6 +16,7 @@ g++ LibraryMain.cpp BookLibrary.cpp -std=c++11 -o VirtualLibrary -l json -l curl
 Once compiled, the program may be launched from the command line by navigating to the directory and entering "./VirtualLibrary" to execute the file. The user is presented with a startup menu:
 
 =====VIRTUAL LIBRARY=====
+
 1. Create a new library
 2. Open a library file
 3. Rename a library file
@@ -25,6 +26,7 @@ Once compiled, the program may be launched from the command line by navigating t
 After a library is successfully created or opened from file, the main menu is then presented:
 
 ========MAIN MENU========
+
 1. Enter a book from ISBN
 2. Enter a book manually
 3. Search for a book
