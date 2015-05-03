@@ -65,3 +65,4 @@ The following are known issues at this time:
 2. Book searches are case sensitive (e.g. keyword searching for "harry potter" will not return the result "Harry Potter").
 3. Book entry by ISBN does not utilize an API key for Google Books. The allowable number of ISBN queries may be restricted.
 4. JSON interpretation is rudimentary and based upon directly analyzing string data rather than parsing.
+5. After creating a new library, when searching for a book title such as "fund 10", the program gets into an infinite loop.
